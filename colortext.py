@@ -92,7 +92,5 @@ cut_codons(string2)
 sorted_codons = sorted(codons.items(), key=operator.itemgetter(1))
 print(sorted_codons)
 
-for x in reversed(sorted_codons):
-
 
 root.mainloop()
